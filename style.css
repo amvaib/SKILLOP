@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer {
+    height: 140vh;
+    width: 105vw;
+    background: url(./img/s2.webp);
+    background-repeat: repeat;
+    background-size: cover;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.logo img {
+    height: 140px;
+    background: transparent;
+}
+
+h4{
+    font-family: poppins;
+}
+
+
+
+.logosection h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logosection {
+    margin: -20px;
+
+}
+
+/* Reduce the gap between the logo and h1 */
+.logosection .logo,
+.logosection h1 {
+    margin: -10px; /* Adjust this value as needed to control the gap */
+}
+
+.secondelement h4{
+
+    font-size: 60.9px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+
+    flex-direction: column;
+    
+
+
+}
+
+.thirdelement{
+    background-color: #7516cc;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 40px;
+
+    border-radius: 40px;
+}
+
+.t3{
+    color: white;
+    font-size: 50px;
+    font-family: roboto;
+}
+
+
+.rightcontainer{
+    flex-direction: column;
+    
+}
+.rightcontainer img{
+ margin-top: 10px;
+    height: 650px;
+    
+}
+
+.buttons{
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    padding: 30px;
+    font-family: roboto;
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+    border: solid 1px white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.leftcontainer{
+    margin-left: 10px;
+}
+
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: solid black 3px;
+}
+
+
